@@ -35,5 +35,5 @@
 [oh-my-zsh]: https://ohmyz.sh/
 [antigen]: http://antigen.sharats.me/#installation
 
-[.zshrc]: .zshrc
-[John's .zshrc]: https://gist.githubusercontent.com/joncalhoun/3d3401da5e159a154069eb12bb0ca296/raw/f21927bd763e977e19fc29bb872c01351ef2cad2/.zshrc
+[Jon's .zshrc]: https://gist.githubusercontent.com/joncalhoun/3d3401da5e159a154069eb12bb0ca296/raw/f21927bd763e977e19fc29bb872c01351ef2cad2/.zshrc
+[.zshrc]: dotfiles/.zshrc
