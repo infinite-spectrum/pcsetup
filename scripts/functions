@@ -1,0 +1,4 @@
+checkport(){
+    lsof -i ":$1" | grep LISTEN
+}
+

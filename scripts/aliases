@@ -1,0 +1,5 @@
+# To source ~/.zshrc
+alias sourcebp="source ~/.zshrc"
+
+# To open files from terminal
+alias open="xdg-open"
