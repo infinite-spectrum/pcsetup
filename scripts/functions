@@ -6,3 +6,6 @@ checkport(){
     lsof -i ":$1" | grep LISTEN
 }
 
+publish(){
+    ngrok http ${1}
+}

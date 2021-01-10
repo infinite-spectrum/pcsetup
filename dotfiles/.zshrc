@@ -3,6 +3,9 @@
 
 PCSETUP="${HOME}/.pcsetup"
 
+mkdir -p ${HOME}/mybinaries
+export PATH=${HOME}/mybinaries:$PATH
+
 export ZSH="/${HOME}/.oh-my-zsh"
 export GOPATH=${HOME}/go
 export PATH=$GOPATH/bin:$PATH
