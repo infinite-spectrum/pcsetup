@@ -1,5 +1,11 @@
+# Some useful aliases, to use directly from terminal prompt.
+# Append your's and enjoy :)
+
 # To source ~/.zshrc
-alias sourcebp="source ~/.zshrc"
+alias sourcebp="source ${HOME}/.zshrc"
 
 # To open files from terminal
 alias open="xdg-open"
+
+# To edit ~/.zshrc
+alias zshrc="open ${HOME}/.zshrc"

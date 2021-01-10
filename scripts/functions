@@ -1,3 +1,7 @@
+# Some useful functions to use directly from terminal prompt.
+# Append your's and enjoy :)
+
+# function To check any running port
 checkport(){
     lsof -i ":$1" | grep LISTEN
 }
