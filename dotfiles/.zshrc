@@ -1,9 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH="/${HOME}/.oh-my-zsh"
+PCSETUP="${HOME}/.pcsetup"
 
+export ZSH="/${HOME}/.oh-my-zsh"
 export GOPATH=${HOME}/go
 export PATH=$GOPATH/bin:$PATH
 export PATH=/usr/local/go/bin:$PATH
@@ -33,7 +33,7 @@ if [[ -f ${ADOTDIR:-$HOME/.antigen}/.cache/.zcache-payload ]]; then
   compinit -d ${HOME}/.zcompdump
 else
   # If there is no cache available do load and execute antigen
-  source ~/.antigen.zsh
+  source ${PCSETUP}/antigen.zsh
 
   # Load the oh-my-zsh's library.
   antigen use oh-my-zsh
@@ -61,5 +61,5 @@ else
 fi
 ### ------------------------------------------------------------------
 
-PCSETUP=
-source ${HOME}
+source ${PCSETUP}/scripts/aliases
+source ${PCSETUP}/scripts/functions
